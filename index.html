@@ -1,31 +1,40 @@
-﻿<!DOCTYPE html>
-<html lang="vi">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Card</title>
+    <title>VinFast Digital Business Card</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+<div class="scene">
 
-        <div class="card" id="card">
+    <div class="card" id="card">
 
-            <div class="face front">
-                <img src="front.png" alt="">
-            </div>
+        <!-- FRONT -->
+        <div class="card-face card-front">
+            <img src="front.png" alt="Front">
+        </div>
 
-            <div class="face back">
-                <img src="back.png" alt="">
+        <!-- BACK -->
+        <div class="card-face card-back">
+
+            <img id="backImage" src="back-en.png" alt="Back">
+
+            <div class="lang-switch">
+                <button class="active" id="enBtn">EN</button>
+                <button id="viBtn">VI</button>
             </div>
 
         </div>
 
     </div>
 
-    <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

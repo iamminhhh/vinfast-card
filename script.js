@@ -3,7 +3,7 @@ const backImage = document.getElementById("backImage");
 const enBtn = document.getElementById("enBtn");
 const viBtn = document.getElementById("viBtn");
 
-let isFlipped = false;
+let isFlipped = true;
 let rotateX = 0;
 let rotateY = 0;
 

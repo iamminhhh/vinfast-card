@@ -6,6 +6,7 @@ const viBtn = document.getElementById("viBtn");
 let isFlipped = true;
 let rotateX = 0;
 let rotateY = 0;
+updateCard();
 
 /* ===========================
    FLIP CARD
